@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace Question1
 {
@@ -52,7 +51,7 @@ namespace Question1
                 Console.Write($"{item} ");
             }
             Console.WriteLine("\nAverage: {0}", (primeSum/primeArrayList.Count).ToString("N3"));
-            
+
             Console.Write("\nThere are {0} non-prime numbers: ", nonPrimeArrayList.Count);
             foreach (var item in nonPrimeArrayList)
             {
